@@ -1866,9 +1866,6 @@ pre code {
 }
 .post-eof {
   background: #ccc;
-  height: 1px;
-  margin: 80px auto 60px;
-  width: 8%;
 }
 .post-block:last-of-type .post-eof {
   display: none;
@@ -2499,7 +2496,9 @@ mark.search-keyword {
 }
 body {
   background-image: url("/images/5.jpg");
-  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-repeat: repeat-x;
   background-attachment: fixed;
   background-size: 100% 100%;
 }
@@ -2508,16 +2507,34 @@ body {
 }
 .pagination {
   background: rgba(255,255,255,0.9);
+  border-radius: 30px 80px 30px 80px;
+  box-shadow: 8px 7px 2px 0 rgba(0,0,0,0.12), 7px 4px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
 }
-.header-inner {
+.head-inner {
   background: rgba(255,255,255,0.9);
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 8px 7px 2px 0 rgba(0,0,0,0.12), 7px 4px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
+  opacity: 0.8;
 }
 .sidebar-inner {
   background: rgba(255,255,255,0.9) none repeat scroll !important;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 8px 7px 2px 0 rgba(0,0,0,0.12), 7px 4px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
 }
 .popup {
   opacity: 0.9;
 }
 .comments {
   background: rgba(255,255,255,0.9);
+}
+.main-inner {
+  background-color: rgba(255,255,255,0);
+  padding: 0px 40px 40px 40px;
+}
+.post-block {
+  margin-top: 0px;
+  margin-bottom: 24px;
+  padding: 10px;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 8px 7px 2px 0 rgba(0,0,0,0.12), 7px 4px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
 }

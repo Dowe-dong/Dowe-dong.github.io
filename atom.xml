@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Dowe Dong</title>
-  <icon>http://www.dowe-dong.online/icon.png</icon>
+  
   <subtitle>万物皆有裂缝，那是光照进来的地方</subtitle>
   <link href="http://www.dowe-dong.online/atom.xml" rel="self"/>
   
   <link href="http://www.dowe-dong.online/"/>
-  <updated>2022-11-26T06:07:56.983Z</updated>
+  <updated>2022-11-26T12:07:46.768Z</updated>
   <id>http://www.dowe-dong.online/</id>
   
   <author>
@@ -21,15 +21,16 @@
     <link href="http://www.dowe-dong.online/2022/11/26/qianyan/"/>
     <id>http://www.dowe-dong.online/2022/11/26/qianyan/</id>
     <published>2022-11-26T13:49:29.000Z</published>
-    <updated>2022-11-26T06:07:56.983Z</updated>
+    <updated>2022-11-26T12:07:46.768Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><pre><code>    本博客的目的是为了防止在学习的过程中忘掉自己曾经学过的一些内容而所建。      其主要内容将包含主要包含：  </code></pre><blockquote><ul><li>3D目标检测经典或者最新算法</li><li>2D目标检测算法</li><li>深度学习的常规知识积累</li></ul></blockquote><pre><code>    因而文章内容不一定浅显易懂，还望大家见谅。                            </code></pre>]]></content>
     
     
       
       
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本博客的目的是为了防止在学习的过程中忘掉自己曾经学过的一些内容而所建。&lt;br&gt;其主要内容将包含主要包含： </summary>
-        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;    本博客的目的是为了防止在学习的过程中忘掉自己曾经学过的一些内容而所建。  
+    其主要内容将包含主要包含：  
+</summary>
       
     
     
