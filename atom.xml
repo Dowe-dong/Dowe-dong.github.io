@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Mr.Dong&#39;s Homepage</title>
-  <icon>http://example.com/icon.png</icon>
+  <icon>http://www.dowe-dong.online/icon.png</icon>
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://www.dowe-dong.online/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2022-11-24T11:13:50.462Z</updated>
-  <id>http://example.com/</id>
+  <link href="http://www.dowe-dong.online/"/>
+  <updated>2022-11-26T06:07:56.983Z</updated>
+  <id>http://www.dowe-dong.online/</id>
   
   <author>
     <name>Dowe Dong</name>
@@ -17,9 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>前言</title>
+    <link href="http://www.dowe-dong.online/2022/11/26/qianyan/"/>
+    <id>http://www.dowe-dong.online/2022/11/26/qianyan/</id>
+    <published>2022-11-26T13:49:29.000Z</published>
+    <updated>2022-11-26T06:07:56.983Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本博客的目的是为了防止在学习的过程中忘掉自己曾经学过的一些内容而所建。&lt;br&gt;其主要内容将包含主要包含： </summary>
+        
+      
+    
+    
+    
+    
+    <category term="博客介绍" scheme="http://www.dowe-dong.online/tags/%E5%8D%9A%E5%AE%A2%E4%BB%8B%E7%BB%8D/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Mr.Dong&#39;s Homepage</title>
-    <link href="http://example.com/2022/11/23/dowe-s-home/"/>
-    <id>http://example.com/2022/11/23/dowe-s-home/</id>
+    <link href="http://www.dowe-dong.online/2022/11/23/dowe-s-home/"/>
+    <id>http://www.dowe-dong.online/2022/11/23/dowe-s-home/</id>
     <published>2022-11-23T11:30:29.000Z</published>
     <updated>2022-11-24T11:13:50.462Z</updated>
     
