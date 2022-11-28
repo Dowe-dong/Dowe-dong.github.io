@@ -6,7 +6,7 @@
   <link href="http://www.dowe-dong.online/atom.xml" rel="self"/>
   
   <link href="http://www.dowe-dong.online/"/>
-  <updated>2022-11-27T03:29:57.582Z</updated>
+  <updated>2022-11-28T11:56:09.454Z</updated>
   <id>http://www.dowe-dong.online/</id>
   
   <author>
@@ -18,23 +18,25 @@
   
   <entry>
     <title>1</title>
-    <link href="http://www.dowe-dong.online/2022/11/27/1/"/>
-    <id>http://www.dowe-dong.online/2022/11/27/1/</id>
+    <link href="http://www.dowe-dong.online/posts/83dcefb7/"/>
+    <id>http://www.dowe-dong.online/posts/83dcefb7/</id>
     <published>2022-11-27T11:29:57.000Z</published>
-    <updated>2022-11-27T03:29:57.582Z</updated>
+    <updated>2022-11-28T11:56:09.454Z</updated>
     
     
     
     
+    
+    <category term="开场蓝" scheme="http://www.dowe-dong.online/tags/%E5%BC%80%E5%9C%BA%E8%93%9D/"/>
     
   </entry>
   
   <entry>
     <title>前言</title>
-    <link href="http://www.dowe-dong.online/2022/11/26/qianyan/"/>
-    <id>http://www.dowe-dong.online/2022/11/26/qianyan/</id>
+    <link href="http://www.dowe-dong.online/posts/7819a34e/"/>
+    <id>http://www.dowe-dong.online/posts/7819a34e/</id>
     <published>2022-11-26T13:49:29.000Z</published>
-    <updated>2022-11-27T11:06:32.056Z</updated>
+    <updated>2022-11-28T11:55:49.234Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>本博客的目的是为了防止在学习的过程中忘掉自己曾经学过的一些内容而所建。<br>其主要内容将包含主要包含：</p><blockquote><p>3D目标检测经典或者最新算法<br>2D目标检测算法<br>深度学习的常规知识积累</p></blockquote><span id="more"></span><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#这里仅仅是为了测试</span><br><span class="line">import torch</span><br><span class="line">import numpy as np</span><br></pre></td></tr></table></figure><p>因而文章内容不一定浅显易懂，还望大家见谅。</p>]]></content>
     
@@ -51,20 +53,22 @@
     
     
     
-    <category term="博客介绍" scheme="http://www.dowe-dong.online/tags/%E5%8D%9A%E5%AE%A2%E4%BB%8B%E7%BB%8D/"/>
+    <category term="开场白" scheme="http://www.dowe-dong.online/tags/%E5%BC%80%E5%9C%BA%E7%99%BD/"/>
     
   </entry>
   
   <entry>
     <title>Mr.Dong&#39;s Homepage</title>
-    <link href="http://www.dowe-dong.online/2022/11/23/Mr.Dong&#39;s%20Homepage/"/>
-    <id>http://www.dowe-dong.online/2022/11/23/Mr.Dong&#39;s%20Homepage/</id>
+    <link href="http://www.dowe-dong.online/posts/fc419bb1/"/>
+    <id>http://www.dowe-dong.online/posts/fc419bb1/</id>
     <published>2022-11-23T11:30:29.000Z</published>
-    <updated>2022-11-27T03:08:29.866Z</updated>
+    <updated>2022-11-28T11:55:58.806Z</updated>
     
     
     
     
+    
+    <category term="开场黑" scheme="http://www.dowe-dong.online/tags/%E5%BC%80%E5%9C%BA%E9%BB%91/"/>
     
   </entry>
   

@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>1</title>
-    <url>/2022/11/27/1/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Mr.Dong&#39;s Homepage</title>
-    <url>/2022/11/23/Mr.Dong&#39;s%20Homepage/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>前言</title>
-    <url>/2022/11/26/qianyan/</url>
+    <url>/posts/7819a34e/</url>
     <content><![CDATA[<h2 id="前言">前言</h2>
 <p>本博客的目的是为了防止在学习的过程中忘掉自己曾经学过的一些内容而所建。<br>
 其主要内容将包含主要包含：</p>
@@ -26,7 +16,23 @@
 <p>因而文章内容不一定浅显易懂，还望大家见谅。</p>
 ]]></content>
       <tags>
-        <tag>博客介绍</tag>
+        <tag>开场白</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1</title>
+    <url>/posts/83dcefb7/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>开场蓝</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mr.Dong&#39;s Homepage</title>
+    <url>/posts/fc419bb1/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>开场黑</tag>
       </tags>
   </entry>
 </search>

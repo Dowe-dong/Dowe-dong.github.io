@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.dowe-dong.online/posts/83dcefb7/</loc>
+    
+    <lastmod>2022-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.dowe-dong.online/posts/fc419bb1/</loc>
+    
+    <lastmod>2022-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.dowe-dong.online/posts/7819a34e/</loc>
+    
+    <lastmod>2022-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.dowe-dong.online/baidu_verify_code-rH5fiXbG42.html</loc>
     
     <lastmod>2022-11-27</lastmod>
@@ -11,34 +38,7 @@
   </url>
   
   <url>
-    <loc>http://www.dowe-dong.online/2022/11/26/qianyan/</loc>
-    
-    <lastmod>2022-11-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.dowe-dong.online/links/index.html</loc>
-    
-    <lastmod>2022-11-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.dowe-dong.online/2022/11/27/1/</loc>
-    
-    <lastmod>2022-11-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.dowe-dong.online/2022/11/23/Mr.Dong's%20Homepage/</loc>
     
     <lastmod>2022-11-27</lastmod>
     
@@ -101,7 +101,21 @@
 
   
   <url>
-    <loc>http://www.dowe-dong.online/tags/%E5%8D%9A%E5%AE%A2%E4%BB%8B%E7%BB%8D/</loc>
+    <loc>http://www.dowe-dong.online/tags/%E5%BC%80%E5%9C%BA%E8%93%9D/</loc>
+    <lastmod>2022-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.dowe-dong.online/tags/%E5%BC%80%E5%9C%BA%E9%BB%91/</loc>
+    <lastmod>2022-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.dowe-dong.online/tags/%E5%BC%80%E5%9C%BA%E7%99%BD/</loc>
     <lastmod>2022-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
