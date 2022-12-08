@@ -20,25 +20,33 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.dowe-dong.online","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.13.2","exturl":false,"sidebar":{"position":"left","width":240,"display":"always","padding":12,"offset":20},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"livere","storage":true,"lazyload":false,"nav":{"livere":{"text":"login in first!","order":-1}},"activeClass":"livere"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="A blog to sort out knowledge.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Dowe Dong">
-<meta property="og:url" content="http://www.dowe-dong.online/index.html">
+    <meta name="description" content="基本介绍 稿件名称：  Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection pdf地址:  https:&#x2F;&#x2F;arxiv.org&#x2F;pdf&#x2F;2012.15712.pdf 学术单位: 中国科学技术大学**1 、 港中文2 **           CAS Key Laboratory of GIPAS, EEIS D">
+<meta property="og:type" content="article">
+<meta property="og:title" content="R-CNN">
+<meta property="og:url" content="http://www.dowe-dong.online/posts/undefined/index.html">
 <meta property="og:site_name" content="Dowe Dong">
-<meta property="og:description" content="A blog to sort out knowledge.">
+<meta property="og:description" content="基本介绍 稿件名称：  Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection pdf地址:  https:&#x2F;&#x2F;arxiv.org&#x2F;pdf&#x2F;2012.15712.pdf 学术单位: 中国科学技术大学**1 、 港中文2 **           CAS Key Laboratory of GIPAS, EEIS D">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2022/png/34548975/1669797389722-0ebe731d-e716-4256-97ff-8251eb9412bf.png#averageHue=%23efedea&amp;clientId=u108402a8-a902-4&amp;crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=paste&amp;height=614&amp;id=u50099082&amp;margin=%5Bobject%20Object%5D&amp;name=image.png&amp;originHeight=768&amp;originWidth=1585&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=313277&amp;status=done&amp;style=none&amp;taskId=u371123d3-7230-4445-a98b-bb8c9bd55d3&amp;title=&amp;width=1268">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2022/png/34548975/1669798758010-4cfe744f-b778-4d70-ac4f-662b644ba7b7.png#averageHue=%23f2f2ca&amp;clientId=u108402a8-a902-4&amp;crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=paste&amp;id=ud5a84e32&amp;margin=%5Bobject%20Object%5D&amp;name=image.png&amp;originHeight=8364&amp;originWidth=5492&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=2905293&amp;status=done&amp;style=none&amp;taskId=ud43d4b68-0186-4beb-8b34-fb1edfc77e4&amp;title=">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2022/png/34548975/1669874600192-d84d3cef-1576-4219-9ea1-1103cf20edfb.png#averageHue=%23faf7f3&amp;clientId=uca9c2aa5-8da4-4&amp;crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=paste&amp;height=271&amp;id=ua7e1ccad&amp;margin=%5Bobject%20Object%5D&amp;name=image.png&amp;originHeight=406&amp;originWidth=863&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=71847&amp;status=done&amp;style=none&amp;taskId=ueaf74c8f-4f0d-46fe-b7d0-b9a4640f930&amp;title=&amp;width=575.3333333333334">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2022/png/34548975/1669872411827-b4863429-0017-45e9-8998-ac6f4d97f7d0.png#averageHue=%23f6f4f2&amp;clientId=uca9c2aa5-8da4-4&amp;crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=paste&amp;height=692&amp;id=uf526d3f8&amp;margin=%5Bobject%20Object%5D&amp;name=image.png&amp;originHeight=865&amp;originWidth=860&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=164824&amp;status=done&amp;style=none&amp;taskId=u431d2f7a-fba4-4a10-b59f-429f24dd7a9&amp;title=&amp;width=688">
+<meta property="article:published_time" content="2022-12-08T20:30:01.000Z">
+<meta property="article:modified_time" content="2022-12-08T12:33:05.686Z">
 <meta property="article:author" content="Dowe Dong">
+<meta property="article:tag" content="3D目标检测">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.nlark.com/yuque/0/2022/png/34548975/1669797389722-0ebe731d-e716-4256-97ff-8251eb9412bf.png#averageHue=%23efedea&amp;clientId=u108402a8-a902-4&amp;crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=paste&amp;height=614&amp;id=u50099082&amp;margin=%5Bobject%20Object%5D&amp;name=image.png&amp;originHeight=768&amp;originWidth=1585&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=313277&amp;status=done&amp;style=none&amp;taskId=u371123d3-7230-4445-a98b-bb8c9bd55d3&amp;title=&amp;width=1268">
 
 
-<link rel="canonical" href="http://www.dowe-dong.online/">
+<link rel="canonical" href="http://www.dowe-dong.online/posts/undefined/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://www.dowe-dong.online/posts/undefined/","path":"posts/undefined/","title":"R-CNN"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Dowe Dong</title>
+<title>R-CNN | Dowe Dong</title>
   
 
 
@@ -74,7 +82,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Dowe Dong</h1>
+      <p class="site-title">Dowe Dong</p>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">万物皆有裂缝，那是光照进来的地方</p>
@@ -128,7 +136,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -141,6 +149,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.</span> <span class="nav-text">基本介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Voxel-Roi-Polling"><span class="nav-number">2.</span> <span class="nav-text">Voxel Roi Polling</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3D-%E4%BD%93%E8%A1%A8%E7%A4%BA%E6%96%B9%E5%BC%8F-voxel-volumes-as-points"><span class="nav-number">2.1.</span> <span class="nav-text">3D  体表示方式 voxel volumes as points</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Voxel-query"><span class="nav-number">2.2.</span> <span class="nav-text">Voxel query</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Voxel-ROI-Polling-Layer"><span class="nav-number">2.3.</span> <span class="nav-text">Voxel ROI Polling Layer</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Accelerated-local-aggregation"><span class="nav-number">2.4.</span> <span class="nav-text">Accelerated local aggregation.</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -203,16 +212,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
     <link itemprop="mainEntityOfPage" href="http://www.dowe-dong.online/posts/undefined/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -226,13 +236,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Dowe Dong">
+      <meta itemprop="name" content="R-CNN | Dowe Dong">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/posts/undefined/" class="post-title-link" itemprop="url">R-CNN</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          R-CNN
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -280,7 +290,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="基本介绍">基本介绍</h2>
+        <h2 id="基本介绍">基本介绍</h2>
 <p>稿件名称：  Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection<br>
 pdf地址:  <a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2012.15712.pdf">https://arxiv.org/pdf/2012.15712.pdf</a><br>
 学术单位: 中国科学技术大学**1 <strong>、 港中文</strong>2 **           CAS Key Laboratory of GIPAS, EEIS Department<br>
@@ -289,15 +299,47 @@ pdf地址:  <a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2012.1
 实验数据集: KITTI 和 Waymo<br>
 Baseline：PV-RCNN、SECOND<br>
 主要指标： accuary and efficirncy</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/posts/undefined/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
+<span id="more"></span>     
+<p>分析认为: PV-RCNN 和 SECOND 指标的提升主要取决于俩部分内容:（1）3D结构信息 （2）建议框精简<br>
+其中（1）BEV的表示形式不是足够精确地对于3D空间的目标框预测   仍然需要3D结构信息 （2）PV特征是非常耗费计算资源的<br>
+框架设计：<br>
+<img src="https://cdn.nlark.com/yuque/0/2022/png/34548975/1669797389722-0ebe731d-e716-4256-97ff-8251eb9412bf.png#averageHue=%23efedea&amp;clientId=u108402a8-a902-4&amp;crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=paste&amp;height=614&amp;id=u50099082&amp;margin=%5Bobject%20Object%5D&amp;name=image.png&amp;originHeight=768&amp;originWidth=1585&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=313277&amp;status=done&amp;style=none&amp;taskId=u371123d3-7230-4445-a98b-bb8c9bd55d3&amp;title=&amp;width=1268" alt="image.png"><br>
+Voxel R-CNN 包括三部分：3D主干网络特征提取器、2D网络框架以及RPN、体素ROI-pooling以及2D目标检测头<br>
+其中3D主干网络特征提取器为:<br>
+<img src="https://cdn.nlark.com/yuque/0/2022/png/34548975/1669798758010-4cfe744f-b778-4d70-ac4f-662b644ba7b7.png#averageHue=%23f2f2ca&amp;clientId=u108402a8-a902-4&amp;crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=paste&amp;id=ud5a84e32&amp;margin=%5Bobject%20Object%5D&amp;name=image.png&amp;originHeight=8364&amp;originWidth=5492&amp;originalType=url&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=2905293&amp;status=done&amp;style=none&amp;taskId=ud43d4b68-0186-4beb-8b34-fb1edfc77e4&amp;title=" alt="image.png"><br>
+然后使用HighCompression将3D特征处理为BEV：<br>
+然后在BEV下，采用2Dbackbone进行特征提取，由于还没有看过代码，因此不知道这个地方与PV-RCNN是否相同，在PV-RCNN中这个地方采用了BRV直接RPN的的做法，而此处是2Dbanckcone+RPN。<br>
+随后将由RPN生成的3D建议框（高度固定）在3D backbone的share    feature上投影， 裁剪出了3D的建议框，由于建议框内大小不统一，因此采用了一个voxel roi-polling的方式进行归一化处理，最后经过一个2D检测头，得到置信度以及Box参数。<br>
+<strong>创新集中在voxel roi-polling</strong></p>
+<h2 id="Voxel-Roi-Polling">Voxel Roi Polling</h2>
+<h3 id="3D-体表示方式-voxel-volumes-as-points">3D  体表示方式 voxel volumes as points</h3>
+<p>3D 体(3D 建议框)表示为: 非空体素网格的中心点集合以及其相应的特征向量。其中，中心点表示为：<br>
+${ \nu_i = (x_i, y_i, z_i) }<em>{i=1}^N$  特征向量表示为：${\phi_i}</em>{i=1}^N$<br>
+关于中心点是如何计算得到的，需要看代码。</p>
+<h3 id="Voxel-query">Voxel query</h3>
+<p>目的：为了找到在3D体中的3D体素网格<br>
+这个地方类似于ball query，只不过距离公式用的不一样，这里采用了曼哈顿距离公式，即针对体素${\alpha = (i_\alpha , j_\alpha , k_\alpha) }$和体素 ${\beta = (i_\beta, j_\beta, k_\beta)}$,<br>
+其距离公式可以表示为：<br>
+${D_m(\alpha, \beta) = |i_\alpha - i_\beta|+ |j_\alpha - j_\beta| + |k_\alpha - k_\beta|}$<br>
+Here, a threshold is set to keep voxel that have specific number. After then, a random sample method is applied to  fixed quantity. （随机采样到固定数量）<br>
+<strong>cosume compare：</strong>（计算量对比）【time complexity】<br>
+这里的主要区别在于ball query会计算到与自己不相邻的体素网格，而voxel query则只计算相邻的，因而作者这里说时间消耗会小一点。俩种方法都会将体素数量随机采样到固定数量。这个过程加速了group_operation操作。<br>
+<img src="https://cdn.nlark.com/yuque/0/2022/png/34548975/1669874600192-d84d3cef-1576-4219-9ea1-1103cf20edfb.png#averageHue=%23faf7f3&amp;clientId=uca9c2aa5-8da4-4&amp;crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=paste&amp;height=271&amp;id=ua7e1ccad&amp;margin=%5Bobject%20Object%5D&amp;name=image.png&amp;originHeight=406&amp;originWidth=863&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=71847&amp;status=done&amp;style=none&amp;taskId=ueaf74c8f-4f0d-46fe-b7d0-b9a4640f930&amp;title=&amp;width=575.3333333333334" alt="image.png"></p>
+<h3 id="Voxel-ROI-Polling-Layer">Voxel ROI Polling Layer</h3>
+<p>Firstly, it divided a region proposal into ${G \times G \times G}$规则的子体素块   体素的中心点作为了子3D体的网格点<br>
+Here， according to 3D volumes are extremetry sparse (non-empty voxels account for 3% spaces), so we can not utilize max pooling. The specific method is :<br>
+(1) exploit voxel query to group a set of neighboring voxels ${\Gamma_i = { \nu_i^1 , \nu_i^2, … , \nu_i^K   }}$<br>
+There, it is similar as ball query. So the result is ids that we choice.<br>
+(2) use pointnet to aggregate the neighboring voxel features ${\eta_i = max_{k =1,2 , \ldots , k} { \psi ([\nu_i^k - g_i ; \phi_i^k])  }}$ 其中， ${\nu_i - g_i}$是相对位置， ${\phi_i^k}$是${\nu_i^k}$所对应的特征向量<br>
+代码验证部分：选择来自3Dbackbone的最后俩层做voxel roi pooling， 并且对每一个阶段采用俩个threshold. 然后将来自不同阶段和不同尺度的特征拼接起来从而获得最终的聚合特征。</p>
+<h3 id="Accelerated-local-aggregation">Accelerated local aggregation.</h3>
+<p>assume that there are r ROIs and G is the grid size. so we get the total grid points is $M = r G^3$<br>
+K voxels are grouped for each grid point.  (sample number)<br>
+grouped feature vector: C+3        C-dim voxel feature    3-dim coordinates<br>
+Computation FLOPs： $（O(M \times K \times (C+3) \times C’)）$<br>
+final:  $（O(M \times K \times 3 \times C’ + N \times C \times C’)）$  ???<br>
+<img src="https://cdn.nlark.com/yuque/0/2022/png/34548975/1669872411827-b4863429-0017-45e9-8998-ac6f4d97f7d0.png#averageHue=%23f6f4f2&amp;clientId=uca9c2aa5-8da4-4&amp;crop=0&amp;crop=0&amp;crop=1&amp;crop=1&amp;from=paste&amp;height=692&amp;id=uf526d3f8&amp;margin=%5Bobject%20Object%5D&amp;name=image.png&amp;originHeight=865&amp;originWidth=860&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=164824&amp;status=done&amp;style=none&amp;taskId=u431d2f7a-fba4-4a10-b59f-429f24dd7a9&amp;title=&amp;width=688" alt="image.png"></p>
+
     </div>
 
     
@@ -307,125 +349,126 @@ Baseline：PV-RCNN、SECOND<br>
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://www.dowe-dong.online/posts/e10b3bdd/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/6.gif">
-      <meta itemprop="name" content="Dowe Dong">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Dowe Dong">
-      <meta itemprop="description" content="A blog to sort out knowledge.">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Dowe Dong">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/posts/e10b3bdd/" class="post-title-link" itemprop="url">latex的安装并配置vscode(ubuntu和windows)</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2022-12-08 17:10:53 / Modified: 12:29:38" itemprop="dateCreated datePublished" datetime="2022-12-08T17:10:53Z">2022-12-08</time>
-    </span>
-
-  
-    <span id="/posts/e10b3bdd/" class="post-meta-item leancloud_visitors" data-flag-title="latex的安装并配置vscode(ubuntu和windows)" title="Views">
-      <span class="post-meta-item-icon">
-        <i class="far fa-eye"></i>
-      </span>
-      <span class="post-meta-item-text">Views: </span>
-      <span class="leancloud-visitors-count"></span>
-    </span>
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Word count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Word count in article: </span>
-      <span>4k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>4 mins.</span>
-    </span>
-</div>
-
-
           
-        </div>
-      </header>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1>latex的安装与基本使用方法</h1>
-<p>以下方法经试验完全可行</p>
-<h2 id="1-ubuntu下配置latex">1. ubuntu下配置latex</h2>
-<p>其具体步骤如下：</p>
+<div class="post-copyright">
 <ul>
-<li>安装基本的texlive环境<br>
-<code>sudo apt-get install texlive-full</code></li>
-<li>安装XeLaTeX编译引擎<br>
-<code>sudo apt-get install texlive-xetex</code></li>
-<li>安装中文支持包，使用的是xeCjK<br>
-<code>sudo apt-get install texlive-lang-chinese</code></li>
-<li>安装图形化界面TeXstudio<br>
-<code>sudo apt-get install texstudio</code><br>
-使用这种方式，是以TeXstudio作为编辑器，如果想配置vscode，则可以不执行这一步，直接跳到最后一部分</li>
+  <li class="post-copyright-author">
+      <strong>Post author:  </strong>Dowe Dong
+  </li>
+  <li class="post-copyright-link">
+      <strong>Post link: </strong>
+      <a href="http://www.dowe-dong.online/posts/undefined/" title="R-CNN">http://www.dowe-dong.online/posts/undefined/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/en" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
 </ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/posts/e10b3bdd/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
+</div>
+
+          <div class="followme">
+  <span>Welcome to my other publishing channels</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+          <a target="_blank" class="social-link" href="https://space.bilibili.com/334005126">
+            <span class="icon">
+              <i class="fab fa-brands fa-bilibili"></i>
+            </span>
+
+            <span class="label">bilibili</span>
+          </a>
+      </div>
+
+      <div class="social-item">
+          <a target="_blank" class="social-link" href="http://dowe-dong.online/">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+      </div>
+  </div>
+</div>
+
+          <div class="post-tags">
+             <div class="post-tags">
+              <a href="/tags/3D%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B/" rel="tag"><i class="fa fa-tag"></i> 3D目标检测</a>
+          </div>
+          <script type="text/javascript">
+            var tagsall=document.getElementsByClassName("post-tags")
+            for (var i = tagsall.length - 1; i >= 0; i--){
+                var tags=tagsall[i].getElementsByTagName("a");
+                for (var j = tags.length - 1; j >= 0; j--) {
+                    var golden_ratio = 0.618033988749895;
+                    var s = 0.5;
+                    var v = 0.999;
+                    var h = golden_ratio + Math.random()*0.8 - 0.5;
+                    var h_i = parseInt(h * 6);
+                    var f = h * 6 - h_i;
+                    var p = v * (1 - s);
+                    var q = v * (1 - f * s);
+                    var t = v * (1 - (1 - f) * s);
+                    var r, g, b;
+                    switch (h_i) {
+                        case 0:
+                            r = v;
+                            g = t;
+                            b = p;
+                            break;
+                        case 1:
+                            r = q;
+                            g = v;
+                            b = p;
+                            break;
+                        case 2:
+                            r = p;
+                            g = v;
+                            b = t;
+                            break;
+                        case 3 :
+                            r = p;
+                            g = q;
+                            b = v;
+                            break;
+                        case 4:
+                            r = t;
+                            g = p;
+                            b = v;
+                            break;
+                        case 5:
+                            r = v;
+                            g = p;
+                            b = q;
+                            break;
+                        default:
+                            r = 1;
+                            g = 1;
+                            b = 1;
+                      }
+                    tags[j].style.background = "rgba("+parseInt(r*255)+","+parseInt(g*255)+","+parseInt(b*255)+","+0.5+")";
+                }
+            }                        
+            </script>
+              <a href="/tags/3D%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B/" rel="tag"><i class="fa fa-tag"></i> 3D目标检测</a>
+          </div>
+
         
-      
-    </div>
+  <div class="addthis_inline_share_toolbox social-like">
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6382fa7df1f92f3b" async="async"></script>
+  </div>
 
-    
-    
-    
-
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/posts/e10b3bdd/" rel="prev" title="latex的安装并配置vscode(ubuntu和windows)">
+                  <i class="fa fa-chevron-left"></i> latex的安装并配置vscode(ubuntu和windows)
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
@@ -434,6 +477,8 @@ Baseline：PV-RCNN、SECOND<br>
 
 
 
+
+    <div class="comments" id="lv-container" data-id="city" data-uid="MTAyMC81NzY5OC8zNDE2MQ=="></div>
 </div>
   </main>
 
