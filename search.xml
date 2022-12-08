@@ -64,6 +64,7 @@ final:  $（O(M \times K \times 3 \times C’ + N \times C \times C’)）$  ???
 <p>以下方法经试验完全可行</p>
 <h2 id="1-ubuntu下配置latex">1. ubuntu下配置latex</h2>
 <p>其具体步骤如下：</p>
+<span id="more"></span>
 <ul>
 <li>安装基本的texlive环境<br>
 <code>sudo apt-get install texlive-full</code></li>
@@ -75,7 +76,6 @@ final:  $（O(M \times K \times 3 \times C’ + N \times C \times C’)）$  ???
 <code>sudo apt-get install texstudio</code><br>
 使用这种方式，是以TeXstudio作为编辑器，如果想配置vscode，则可以不执行这一步，直接跳到最后一部分</li>
 </ul>
-<span id="more"></span>
 <h2 id="2-windows环境下配置latex">2.windows环境下配置latex</h2>
 <p>其基本步骤如下：</p>
 <ul>
