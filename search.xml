@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>R-CNN</title>
-    <url>/posts/undefined/</url>
+    <title>voxel R-CNN</title>
+    <url>/posts/e10b3dawk/</url>
     <content><![CDATA[<h2 id="基本介绍">基本介绍</h2>
 <p>稿件名称：  Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection<br>
 pdf地址:  <a href="https://arxiv.org/pdf/2012.15712.pdf">https://arxiv.org/pdf/2012.15712.pdf</a><br>
-学术单位: 中国科学技术大学**1 <strong>、 港中文</strong>2 **           CAS Key Laboratory of GIPAS, EEIS Department<br>
-提出的新观点: 精确地3D位置点坐标不是必然的对于3D目标检测的精度而言，粗略的体素网格方法也能提供很好的精度</p>
+学术单位: 中国科学技术大学**1 <strong>、 港中文</strong>2 **           CAS Key Laboratory of GIPAS, EEIS Department</p>
+<span id="more"></span>   
+<p>提出的新观点: 精确地3D位置点坐标不是必然的对于3D目标检测的精度而言，粗略的体素网格方法也能提供很好的精度</p>
 <p>方法类型: 基于体素的俩阶段方法<br>
 实验数据集: KITTI 和 Waymo<br>
 Baseline：PV-RCNN、SECOND<br>
 主要指标： accuary and efficirncy</p>
-<span id="more"></span>     
 <p>分析认为: PV-RCNN 和 SECOND 指标的提升主要取决于俩部分内容:（1）3D结构信息 （2）建议框精简<br>
 其中（1）BEV的表示形式不是足够精确地对于3D空间的目标框预测   仍然需要3D结构信息 （2）PV特征是非常耗费计算资源的<br>
 框架设计：<br>
