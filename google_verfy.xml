@@ -2,27 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.dowe-dong.online/posts/83dcefb7/</loc>
+    <loc>http://www.dowe-dong.online/posts/e10b3bdd/</loc>
     
-    <lastmod>2022-11-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.dowe-dong.online/posts/fc419bb1/</loc>
-    
-    <lastmod>2022-11-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.dowe-dong.online/posts/7819a34e/</loc>
-    
-    <lastmod>2022-11-28</lastmod>
+    <lastmod>2022-12-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,29 +76,15 @@
 
   <url>
     <loc>http://www.dowe-dong.online/</loc>
-    <lastmod>2022-11-28</lastmod>
+    <lastmod>2022-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://www.dowe-dong.online/tags/%E5%BC%80%E5%9C%BA%E8%93%9D/</loc>
-    <lastmod>2022-11-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.dowe-dong.online/tags/%E5%BC%80%E5%9C%BA%E9%BB%91/</loc>
-    <lastmod>2022-11-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.dowe-dong.online/tags/%E5%BC%80%E5%9C%BA%E7%99%BD/</loc>
-    <lastmod>2022-11-28</lastmod>
+    <loc>http://www.dowe-dong.online/tags/latex/</loc>
+    <lastmod>2022-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
